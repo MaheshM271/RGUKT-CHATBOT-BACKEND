@@ -1,0 +1,32 @@
+Django==5.1.6
+djangorestframework
+psycopg
+djangorestframework_simplejwt
+ipykernel
+
+# Core LangChain functionality
+langchain                         # LangChain framework for building language model applications
+langchain-community               # Community extensions for LangChain
+langchain-text-splitters          # Text splitting utilities for LangChain
+langchain-openai                  # OpenAI integration for LangChain
+langchain-huggingface             # Hugging Face models integration for LangChain
+langchain-chroma                  # Chroma vector store integration for LangChain
+langchain-groq                    # Groq integration for LangChain
+langchain-core
+ 
+
+# Embedding and vector storage
+torch>=2.0.0
+transformers==4.40.0
+sentence-transformers==2.7.0
+chromadb
+
+# Hugging Face and Model Handling
+huggingface_hub                   # Hugging Face model hub integration
+
+# PDF
+pypdf
+
+psycopg2
+
+chainlit
